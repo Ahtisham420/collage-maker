@@ -23,8 +23,8 @@
                     <div class="input-group">
                         <input type="file" id="images" class="form-control" accept="image/png,image/jpeg"
                                name="images[]" multiple>
-
                     </div>
+                    <span>{{ __('listing.images_selection_quide') }}</span>
                 </div>
                 <div>
                     <button type="reset" class="btn btn-default mt-2"

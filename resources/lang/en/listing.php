@@ -27,5 +27,6 @@ return [
     'upload' => 'Upload!',
     'collage_table' => 'Collage Table',
     'listing_detail' => 'List of the Collages!',
+    'images_selection_quide' => 'press ctrl + select images for multiple',
 
 ];
