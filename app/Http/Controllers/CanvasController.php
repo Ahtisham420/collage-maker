@@ -47,6 +47,7 @@ class CanvasController extends Controller
 
     public function storeDB($path)
     {
+        //image path store in database
         Image::create(['path' => env('APP_URL') . 'storage/' . $path]);
     }
 
